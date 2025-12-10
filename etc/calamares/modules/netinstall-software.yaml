@@ -1,11 +1,12 @@
-- name: "Essentials"
-  description: "Essentials"
-  critical: true
-  hidden: true
-  selected: true
-  expanded: false
-  packages:
-    - xero-toolkit
+# - name: "Essentials"
+#   description: "Essentials"
+#   critical: true
+#   hidden: true
+#   selected: true
+#   expanded: false
+#   packages:
+#     - xero-toolkit
+#     - xero-gpu-tools
 - name: "Browser"
   description: "Web Browser"
   critical: false
