@@ -1,0 +1,136 @@
+- name: "Essentials"
+  description: "Essentials"
+  critical: true
+  hidden: true
+  selected: true
+  expanded: false
+  packages:
+    - xero-toolkit
+- name: "Browser"
+  description: "Web Browser"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - floorp
+    - firefox
+    - filezilla
+    - brave-bin
+    - librewolf
+    - vivaldi-meta
+    - tor-browser-bin
+    - mullvad-browser-bin
+    - ungoogled-chromium-bin
+- name: "Social Apps"
+  description: "Social Media Apps"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - zapzap
+    - tokodon
+    - discord
+    - element
+    - telegram
+    - ferdium-bin
+- name: "LibreOffice"
+  description: "Libre Office Fresh"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - hunspell
+    - libreoffice-fresh
+    - hunspell-@LANGUAGE@
+    - libreoffice-extension-texmaths
+    - libreoffice-extension-writer2latex
+- name: "Git & Dev"
+  description: "Git & Dev Applications"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - hugo
+    - meld
+    - vscodium-bin
+    - github-desktop
+- name: "Password Manager"
+  description: "Password Managers"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - keepassxc
+    - bitwarden
+- name: "Android Development"
+  description: "Android Dev Tools"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - heimdall
+    - qtscrcpy
+    - adbmanager
+    - android-udev
+    - android-tools
+    - android-platform
+    - android-sdk-platform-tools
+- name: "Imaging Tools"
+  description: "Imaging Apps & Tools"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - gimp
+    - godot
+    - krita
+    - blender
+- name: "Audio Prod. & Music"
+  description: "Audio Production & Music Apps"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - mpv
+    - amarok
+    - spotify
+    - tenacity
+    - jamesdsp
+    - easyeffects
+- name: "Video Prod. & Editing"
+  description: "Video Production & Editing Apps"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - mystiq
+    - makemkv
+    - kdenlive
+    - avidemux-qt
+    - mkvtoolnix-gui
+    - losslesscut-bin
+- name: "Extra Fonts"
+  description: "More Fonts..."
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - noto-fonts
+    - ttf-dejavu
+    - asian-fonts
+    - ttf-caladea
+    - ttf-carlito
+    - ttf-liberation
+    - ttf-linux-libertine-g
+    - adobe-source-code-pro-fonts
+    - adobe-source-serif-pro-fonts

@@ -1,14 +1,15 @@
 # Maintainer: DarkXero <info@techxero.com>
-pkgname=calamares-kde-nv
+pkgname=calamares-nv-cfg
 _destname1="/etc"
-pkgver=3.3.14
-pkgrel=6
-pkgdesc="calamares Config for XeroLinux (Phase 2)"
+pkgver=3.4.1
+pkgrel=3
+pkgdesc="calamares Config for XeroLinux"
 arch=('any')
 url="https://github.com/XeroLinuxDev"
 license=('GPL3')
 makedepends=('git')
 depends=()
+conflicts=('calamares-config')
 provides=("${pkgname}")
 options=(!strip !emptydirs)
 source=(${pkgname}::"git+${url}/${pkgname}")
